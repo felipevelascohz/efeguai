@@ -31,7 +31,7 @@ export default function CatalogoPage() {
 
         <div className="w-full aspect-[4/3] md:aspect-[16/9] overflow-hidden rounded-lg shadow-lg">
           <iframe
-            src="https://ko-fi.com/efeguai/shop"
+            src="https://ko-fi.com/efeguai/shop/"
             title="Ko-fi Shop"
             className="w-full h-full border-0"
             loading="lazy"
@@ -45,7 +45,7 @@ export default function CatalogoPage() {
             Si el catalogo no se carga correctamente, puedes visitarlo directamente en Ko-fi.
           </p>
           <Link
-            href="https://ko-fi.com/efeguai/shop"	
+            href="https://ko-fi.com/efeguai/shop/"	
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-rosa-400 hover:bg-rosa-500 text-white font-bold py-3 px-6 rounded-lg transition-colors"
