@@ -10,6 +10,7 @@ export default function Home() {
     { id: "02", title: "Catalogo Ko-fi", duration: "1:57", active: true, progress: 45, url: "/catalogo" },
     { id: "03", title: "Instagram", duration: "2:04", progress: 65, url: "https://instagram.com/efeguai", external: true },
     { id: "04", title: "TikTok", duration: "2:31", progress: 50, url: "https://tiktok.com/@efeguai", external: true },
+    { id: "05", title: "Mail", duration: "3:52", progress: 25, url: "mailto:efeguaidesign@gmail.com", external: true }
   ]
 
   return (
