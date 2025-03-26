@@ -26,7 +26,7 @@ const config: Config = {
         rosa: {
           100: "#fea8d7",
           200: "#fd8ac9",
-          300: "#fd62b8", // Color principal
+          300: "#fe99d1", // Color principal
           400: "#fc3aa7",
           500: "#fb1296",
           600: "#e00984",
