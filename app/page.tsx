@@ -4,17 +4,12 @@ import { AudioPlayer } from "@/components/audio-player"
 import { ItemList } from "@/components/tulip-list"
 
 export default function Home() {
-  // List items with their timestamps and progress
+  // Lista reducida con solo 4 elementos y URLs externas para redes sociales
   const listItems = [
-    { id: "01", title: "Catalogo Ko-fi", duration: "2:13", progress: 85 },
-    { id: "02", title: "Subscripciones Ko-fi", duration: "1:57", active: true, progress: 45 },
-    { id: "03", title: "Comisiones", duration: "11:47", progress: 20 },
-    { id: "04", title: "Instagram", duration: "2:04", progress: 65 },
-    { id: "05", title: "Twitch", duration: "7:39", progress: 10 },
-    { id: "06", title: "Twitter", duration: "3:45", progress: 30 },
-    { id: "07", title: "Discord", duration: "4:11", progress: 75 },
-    { id: "08", title: "TikTok", duration: "2:31", progress: 50 },
-    { id: "09", title: "Materiales", duration: "5:32", progress: 15 },
+    { id: "01", title: "Subscripciones Ko-fi", duration: "2:13", progress: 85, url: "/subscripciones" },
+    { id: "02", title: "Catalogo Ko-fi", duration: "1:57", active: true, progress: 45, url: "/catalogo" },
+    { id: "03", title: "Instagram", duration: "2:04", progress: 65, url: "https://instagram.com", external: true },
+    { id: "04", title: "TikTok", duration: "2:31", progress: 50, url: "https://tiktok.com", external: true },
   ]
 
   return (
