@@ -8,8 +8,8 @@ export default function Home() {
   const listItems = [
     { id: "01", title: "Subscripciones Ko-fi", duration: "2:13", progress: 85, url: "/subscripciones" },
     { id: "02", title: "Catalogo Ko-fi", duration: "1:57", active: true, progress: 45, url: "/catalogo" },
-    { id: "03", title: "Instagram", duration: "2:04", progress: 65, url: "https://instagram.com", external: true },
-    { id: "04", title: "TikTok", duration: "2:31", progress: 50, url: "https://tiktok.com", external: true },
+    { id: "03", title: "Instagram", duration: "2:04", progress: 65, url: "https://instagram.com/efeguai", external: true },
+    { id: "04", title: "TikTok", duration: "2:31", progress: 50, url: "https://tiktok.com/efeguai", external: true },
   ]
 
   return (
