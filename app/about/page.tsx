@@ -73,7 +73,7 @@ export default function AboutPage() {
                 </svg>
               </Link>
               <Link
-                href="https://twitter.com"
+                href="https://x.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-rosa-200 hover:bg-rosa-300 text-white p-2 rounded-full transition-colors"
@@ -122,19 +122,19 @@ export default function AboutPage() {
 
         <div className="grid gap-8">
           <section>
-            <h2 className="text-2xl font-bold mb-4 text-rosa-500">Mi Proceso Creativo</h2>
+            {/* <h2 className="text-2xl font-bold mb-4 text-rosa-500">Mi Proceso Creativo</h2>
             <p className="text-gray-700 mb-4">
               Todo comienza con una idea o un sentimiento que quiero expresar. Luego hago bocetos a mano o digitales,
               refinando la idea hasta que estoy satisfecha con el resultado. Finalmente, añado color y detalles para dar
               vida a mis creaciones.
-            </p>
+            </p> */}
             <p className="text-gray-700">
-              Me encanta experimentar con diferentes estilos y técnicas, pero siempre manteniendo esa esencia kawaii que
-              caracteriza mi trabajo.
+            🌸 Papelería digital creativa ♡ Tiendita con productos para imprimir o para su uso digital en las apps o dispositivos que desees. 🌸
+            📩 efeguaidesign@gmail.com
             </p>
           </section>
 
-          <section>
+          {/* <section>
             <h2 className="text-2xl font-bold mb-4 text-rosa-500">Mis Servicios</h2>
             <ul className="list-disc pl-5 space-y-2 text-gray-700">
               <li>Ilustraciones digitales personalizadas</li>
@@ -143,13 +143,13 @@ export default function AboutPage() {
               <li>Comisiones para regalos especiales</li>
               <li>Contenido exclusivo para subscriptores</li>
             </ul>
-          </section>
+          </section> */}
 
           <section>
             <h2 className="text-2xl font-bold mb-4 text-rosa-500">¡Gracias por tu Apoyo!</h2>
             <p className="text-gray-700">
               Cada compra, subscripción o simple mensaje de apoyo significa muchísimo para mí. Gracias a ti puedo seguir
-              creando y compartiendo mi arte con el mundo. Si tienes alguna pregunta o quieres colaborar, no dudes en
+              creando y compartiendo mi arte con el mundo. Si tienes alguna pregunta, no dudes en
               contactarme.
             </p>
           </section>
