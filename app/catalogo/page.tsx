@@ -37,13 +37,6 @@ export default function CatalogoPage() {
             loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-            style={{
-              position: "absolute",    // Posiciona el iframe de forma absoluta dentro del contenedor
-              top: "0",                // Asegura que el iframe empiece desde la parte superior (puedes ajustarlo para moverlo)
-              left: "0",               // Alinea el iframe a la izquierda
-              width: "100%",           // Asegura que ocupe todo el ancho del contenedor
-              height: "200%",          // Ajusta la altura para mostrar más contenido de la página
-            }}
           ></iframe>
         </div>
 
