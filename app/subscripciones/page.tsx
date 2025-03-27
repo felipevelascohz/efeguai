@@ -12,7 +12,7 @@ export default function SubscripcionesPage() {
           </Link>
 
           <nav className="hidden md:flex space-x-6">
-            {["ABOUT", "SUBSCRIPCIONES", "CATALOGO"].map((item) => (
+            {["ABOUT", "SUBSCRIPCIONES", "SHOP"].map((item) => (
               <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}
