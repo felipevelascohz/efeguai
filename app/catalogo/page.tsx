@@ -37,6 +37,13 @@ export default function CatalogoPage() {
             loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
+            style={{
+              position: "absolute",
+              top: "-100px", // Ajusta según la parte de la página que quieras ver
+              left: "0",
+              width: "100%",
+              height: "200%" // Ajusta la altura si quieres mostrar más o menos
+            }}
           ></iframe>
         </div>
 
