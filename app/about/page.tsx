@@ -31,7 +31,7 @@ export default function AboutPage() {
           <div className="w-full md:w-1/3">
             <div className="aspect-square relative rounded-full overflow-hidden bg-rosa-100">
               <Image
-                src="/efeguai-main.png"
+                src="/efeguai-about.png"
                 alt="efeguai character"
                 width={300}
                 height={300}
