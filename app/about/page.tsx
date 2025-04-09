@@ -54,12 +54,18 @@ export default function AboutPage() {
             <h1 className="text-3xl font-bold mb-4 text-rosa-600">¡Hola! Soy efeguai 💕</h1>
             <p className="text-gray-700 mb-4">
             🌸 Soy una artista digital especializada en ilustraciones kawaii y diseños adorables.
-            🌸 También me encanta crear recursos para imprimir o usar en tus apps y dispositivos favoritos.
+            </p>
+            <p className="text-gray-700 mb-4">
+            🌸 Me encanta crear recursos para imprimir los cuales también puedes usar en tus apps y dispositivos favoritos.
+            </p>
+            <p className="text-gray-700 mb-4">
             🌸 Comparto mis creaciones contigo a través de mi tienda online y mis redes sociales.
+            </p>
+            <p className="text-gray-700 mb-4">
             🌸 En mi tienda encontrarás papelería digital creativa y productos listos para imprimir o usar digitalmente.
-
+            </p>
+            <p className="text-gray-700 mb-4">
             ¡Espero que te encanten! ✨
-
             </p>
             {/* <p className="text-gray-700 mb-4">
               Desde pequeña siempre me ha encantado dibujar personajes tiernos y crear mundos imaginarios llenos de
@@ -164,10 +170,10 @@ export default function AboutPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4 text-rosa-500">¡Gracias por tu Apoyo!</h2>
             <p className="text-gray-700">
-            Cada compra, suscripción o simple mensaje de aliento significa muchísimo para mí. Gracias a ti, puedo seguir creando y compartiendo lo que hago. ¡Tu motivación es invaluable!
-
+            Cada suscripción, comentario, mensaje o cuando has usado mi contenido y lo muestras en redes sociales significa muchísimo para mí. Gracias a ti, puedo seguir creando y compartiendo lo que hago. ¡Tu apoyo me impulsa a seguir adelante! ✨
+            </p>
+            <p className="text-gray-700">
             Si necesitas contactarme, no dudes en hacerlo.
-
             </p>
           </section>
         </div>
