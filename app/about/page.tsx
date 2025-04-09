@@ -3,6 +3,9 @@ import Link from "next/link"
 import { MobileMenu } from "@/components/mobile-menu"
 
 export default function AboutPage() {
+
+  const menuItems = ["ABOUT", "SUBSCRIPCIONES", "CATALOGO"]
+
   return (
     <main className="min-h-screen bg-white">
       {/* Header without decorative border */}
@@ -13,7 +16,7 @@ export default function AboutPage() {
           </Link>
 
           <nav className="hidden md:flex space-x-6">
-            {["ABOUT", "SUBSCRIPCIONES", "SHOP"].map((item) => (
+            {menuItems.map((item) => (
               <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}
