@@ -27,7 +27,7 @@ export default function CatalogoPage() {
 
       {/* Ko-fi Shop iframe */}
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <h1 className="text-3xl font-bold text-center mb-8 text-rosa-600">Catalogo Ko-fi</h1>
+        <h1 className="text-3xl font-bold text-center mb-8 text-rosa-600">Shop</h1>
 
         <div className="w-full aspect-[4/3] md:aspect-[16/9] overflow-hidden rounded-lg shadow-lg">
           <iframe
