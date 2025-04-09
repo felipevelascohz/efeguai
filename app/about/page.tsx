@@ -172,7 +172,7 @@ export default function AboutPage() {
             <p className="text-gray-700">
             Cada suscripción, comentario, mensaje o cuando has usado mi contenido y lo muestras en redes sociales significa muchísimo para mí. Gracias a ti, puedo seguir creando y compartiendo lo que hago. ¡Tu apoyo me impulsa a seguir adelante! ✨
             </p>
-            <p className="text-gray-700">
+            <p className="text-gray-700 mb-4">
             Si necesitas contactarme, no dudes en hacerlo.
             </p>
           </section>
