@@ -22,20 +22,32 @@ export function MobileMenu({ items }: MobileMenuProps) {
         {isOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
 
-      {/* Menú desplegable */}
+      {/* Menú desplegable - Posicionado fijo en la parte superior derecha */}
       {isOpen && (
-        <div className="absolute top-full right-0 w-48 bg-rosa-300 z-50 shadow-lg rounded-b-lg overflow-hidden">
-          <div className="py-2">
-            {items.map((item) => (
-              <Link
-                key={item}
-                href={`/${item.toLowerCase()}`}
-                className="block py-3 px-4 text-white font-bold hover:bg-rosa-400 transition-colors"
+        <div className="fixed top-0 right-0 h-screen w-screen bg-black bg-opacity-50 z-50">
+          <div className="absolute top-0 right-0 w-64 bg-rosa-300 h-auto">
+            <div className="p-4 flex justify-between items-center border-b border-white border-opacity-20">
+              <span className="text-white font-bold">Menú</span>
+              <button
                 onClick={() => setIsOpen(false)}
+                className="text-white focus:outline-none"
+                aria-label="Cerrar menú"
               >
-                {item}
-              </Link>
-            ))}
+                <X size={24} />
+              </button>
+            </div>
+            <div className="py-2">
+              {items.map((item) => (
+                <Link
+                  key={item}
+                  href={`/${item.toLowerCase()}`}
+                  className="block py-4 px-6 text-white font-bold hover:bg-rosa-400 transition-colors border-b border-white border-opacity-10"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item}
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       )}
