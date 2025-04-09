@@ -5,7 +5,10 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "efeguai",
   description: "Pixel art y diseños kawaii",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+      icon: "/favicon1.png",
+  }
 }
 
 export default function RootLayout({
