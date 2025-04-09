@@ -25,6 +25,11 @@ export default function AboutPage() {
         </div>
       </header>
 
+      {/* Borde festoneado */}
+      <div className="w-full bg-rosa-300">
+        <div className="scalloped-border"></div>
+      </div>
+
       {/* About content */}
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
@@ -40,18 +45,23 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="w-full md:w-2/3">
-            <h1 className="text-3xl font-bold mb-4 text-rosa-600">¡Hola! Soy efeguai</h1>
+            <h1 className="text-3xl font-bold mb-4 text-rosa-600">¡Hola! Soy efeguai 💕</h1>
             <p className="text-gray-700 mb-4">
-              Soy una artista digital especializada en ilustraciones kawaii y diseños adorables. Mi pasión es crear arte
-              que haga sonreír a las personas y llenar el mundo de color y ternura.
+            🌸 Soy una artista digital especializada en ilustraciones kawaii y diseños adorables.
+            🌸 También me encanta crear recursos para imprimir o usar en tus apps y dispositivos favoritos.
+            🌸 Comparto mis creaciones contigo a través de mi tienda online y mis redes sociales.
+            🌸 En mi tienda encontrarás papelería digital creativa y productos listos para imprimir o usar digitalmente.
+
+            ¡Espero que te encanten! ✨
+
             </p>
-            <p className="text-gray-700 mb-4">
+            {/* <p className="text-gray-700 mb-4">
               Desde pequeña siempre me ha encantado dibujar personajes tiernos y crear mundos imaginarios llenos de
               magia. Ahora comparto mis creaciones contigo a través de mi tienda online y mis redes sociales.
-            </p>
+            </p> */}
             <div className="flex gap-4 mt-6">
               <Link
-                href="https://instagram.com"
+                href="https://instagram.com/efeguai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-rosa-200 hover:bg-rosa-300 text-white p-2 rounded-full transition-colors"
@@ -73,7 +83,7 @@ export default function AboutPage() {
                 </svg>
               </Link>
               <Link
-                href="https://x.com"
+                href="https://x.com/efeguai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-rosa-200 hover:bg-rosa-300 text-white p-2 rounded-full transition-colors"
@@ -93,7 +103,7 @@ export default function AboutPage() {
                 </svg>
               </Link>
               <Link
-                href="https://ko-fi.com"
+                href="https://ko-fi.com/efeguai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-rosa-200 hover:bg-rosa-300 text-white p-2 rounded-full transition-colors"
@@ -128,10 +138,10 @@ export default function AboutPage() {
               refinando la idea hasta que estoy satisfecha con el resultado. Finalmente, añado color y detalles para dar
               vida a mis creaciones.
             </p> */}
-            <p className="text-gray-700">
+            {/* <p className="text-gray-700">
             🌸 Papelería digital creativa ♡ Tiendita con productos para imprimir o para su uso digital en las apps o dispositivos que desees. 🌸
             📩 efeguaidesign@gmail.com
-            </p>
+            </p> */}
           </section>
 
           {/* <section>
@@ -148,9 +158,10 @@ export default function AboutPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4 text-rosa-500">¡Gracias por tu Apoyo!</h2>
             <p className="text-gray-700">
-              Cada compra, subscripción o simple mensaje de apoyo significa muchísimo para mí. Gracias a ti puedo seguir
-              creando y compartiendo mi arte con el mundo. Si tienes alguna pregunta, no dudes en
-              contactarme.
+            Cada compra, suscripción o simple mensaje de aliento significa muchísimo para mí. Gracias a ti, puedo seguir creando y compartiendo lo que hago. ¡Tu motivación es invaluable!
+
+            Si necesitas contactarme, no dudes en hacerlo.
+
             </p>
           </section>
         </div>

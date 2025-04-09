@@ -7,10 +7,10 @@ export default function Home() {
   // Lista reducida con solo 4 elementos y URLs externas para redes sociales
   const listItems = [
     { id: "01", title: "Subscripciones Ko-fi", duration: "2:13", progress: 85, url: "/subscripciones" },
-    { id: "02", title: "Shop", duration: "1:57", active: true, progress: 45, url: "/shop" },
+    { id: "02", title: "Shop Ko-fi", duration: "1:57", active: true, progress: 45, url: "/shop" },
     { id: "03", title: "Instagram", duration: "2:04", progress: 65, url: "https://instagram.com/efeguai", external: true },
     { id: "04", title: "TikTok", duration: "2:31", progress: 50, url: "https://tiktok.com/@efeguai", external: true },
-    { id: "05", title: "Mail", duration: "3:52", progress: 25, url: "mailto:efeguaidesign@gmail.com", external: true }
+    { id: "05", title: "efeguaidesign@gmail.com", duration: "3:52", progress: 25 }
   ]
 
   return (
@@ -35,6 +35,10 @@ export default function Home() {
           </nav>
         </div>
       </header>
+      
+      <div className="w-full bg-rosa-300">
+        <div className="scalloped-border"></div>
+      </div>
 
       {/* Main content */}
       <div className="w-full max-w-2xl mx-auto mt-16 px-4 flex flex-col items-center">

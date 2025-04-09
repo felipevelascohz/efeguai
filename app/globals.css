@@ -12,6 +12,15 @@ body {
   background: rgb(var(--background-rgb));
 }
 
+/* Borde festoneado */
+.scalloped-border {
+  height: 20px;
+  background-image: radial-gradient(circle at 50% 0, transparent 20px, white 20px);
+  background-size: 40px 20px;
+  background-repeat: repeat-x;
+  margin-top: -1px; /* Para evitar pequeños espacios entre el header y el borde */
+}
+
 /* Audio line animation */
 @keyframes audioVisualization {
   0% {

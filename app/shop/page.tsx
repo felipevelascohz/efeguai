@@ -25,6 +25,12 @@ export default function CatalogoPage() {
         </div>
       </header>
 
+      {/* Borde festoneado */}
+      <div className="w-full bg-rosa-300">
+        <div className="scalloped-border"></div>
+      </div>
+
+
       {/* Ko-fi Shop iframe */}
       <div className="max-w-6xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold text-center mb-8 text-rosa-600">Shop</h1>
