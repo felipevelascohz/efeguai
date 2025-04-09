@@ -4,7 +4,7 @@ import { MobileMenu } from "@/components/mobile-menu"
 
 export default function SubscripcionesPage() {
 
-  const menuItems = ["ABOUT", "SUBSCRIPCIONES", "CATALOGO"]
+  const menuItems = ["ABOUT", "MEMBRESIAS", "CATALOGO"]
   return (
     <main className="min-h-screen bg-white">
       {/* Header without decorative border */}
@@ -37,7 +37,7 @@ export default function SubscripcionesPage() {
 
       {/* Ko-fi Membership iframe */}
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <h1 className="text-3xl font-bold text-center mb-8 text-rosa-600">Subscripciones Ko-fi</h1>
+        <h1 className="text-3xl font-bold text-center mb-8 text-rosa-600">Membresias Ko-fi</h1>
 
         <div className="w-full aspect-[4/3] md:aspect-[16/9] overflow-hidden rounded-lg shadow-lg">
           <iframe
