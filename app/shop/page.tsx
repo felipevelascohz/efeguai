@@ -4,7 +4,7 @@ import { MobileMenu } from "@/components/mobile-menu"
 
 export default function CatalogoPage() {
 
-  const menuItems = ["ABOUT", "MEMBRESIAS", "CATALOGO"]
+  const menuItems = ["ABOUT", "MEMBRESIAS", "SHOP"]
 
   return (
     <main className="min-h-screen bg-white">

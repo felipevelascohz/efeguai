@@ -13,7 +13,7 @@ export default function Home() {
     { id: "04", title: "TikTok", duration: "2:31", progress: 50, url: "https://tiktok.com/@efeguai", external: true },
     { id: "05", title: "efeguaidesign@gmail.com", duration: "3:52", progress: 25, url: "mailto:efeguaidesign@gmail.com", external: true }
   ]
-  const menuItems = ["ABOUT", "MEMBRESIAS", "CATALOGO"]
+  const menuItems = ["ABOUT", "MEMBRESIAS", "SHOP"]
   return (
     <main className="min-h-screen bg-white flex flex-col items-center">
       {/* Header without decorative border */}
