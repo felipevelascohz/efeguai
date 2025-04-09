@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { AudioPlayer } from "@/components/audio-player"
 import { ItemList } from "@/components/tulip-list"
+import { MobileMenu } from "@/components/mobile-menu"
 
 export default function Home() {
   // Lista reducida con solo 4 elementos y URLs externas para redes sociales
@@ -33,6 +34,7 @@ export default function Home() {
               </Link>
             ))}
           </nav>
+          <MobileMenu items={menuItems} />
         </div>
       </header>
       

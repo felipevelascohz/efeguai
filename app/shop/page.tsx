@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import { MobileMenu } from "@/components/mobile-menu"
 
 export default function CatalogoPage() {
   return (
@@ -22,6 +23,7 @@ export default function CatalogoPage() {
               </Link>
             ))}
           </nav>
+          <MobileMenu items={menuItems} />
         </div>
       </header>
 
