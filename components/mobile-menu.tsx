@@ -24,13 +24,13 @@ export function MobileMenu({ items }: MobileMenuProps) {
 
       {/* Menú desplegable */}
       {isOpen && (
-        <div className="absolute top-full left-0 right-0 bg-rosa-300 z-50 shadow-lg">
-          <div className="py-2 px-4">
+        <div className="absolute top-full right-0 w-48 bg-rosa-300 z-50 shadow-lg rounded-b-lg overflow-hidden">
+          <div className="py-2">
             {items.map((item) => (
               <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}
-                className="block py-3 text-white font-bold hover:text-rosa-100 transition-colors"
+                className="block py-3 px-4 text-white font-bold hover:bg-rosa-400 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {item}
