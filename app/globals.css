@@ -51,3 +51,16 @@ body {
   font-family: "Cute Font", sans-serif;
 }
 
+
+/* Gradientes para los planes de suscripción */
+.gradient-miniprint {
+  background: linear-gradient(to right, #e6f7c1, #fff9c1);
+}
+
+.gradient-printpass {
+  background: linear-gradient(to right, #ffd1e3, #e0c3fc);
+}
+
+.gradient-premium {
+  background: linear-gradient(to right, #d4c1fc, #c1e3fc);
+}
