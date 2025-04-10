@@ -80,7 +80,7 @@ body {
   width: 100%;
   height: calc(100% + 180px); /* Compensar el margen negativo */
   border: 0;
-  margin-top: -180px; /* Valor para móviles */
+  margin-top: -150px; /* Valor para móviles */
 }
 
 
