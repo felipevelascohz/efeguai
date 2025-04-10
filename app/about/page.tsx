@@ -40,14 +40,17 @@ export default function AboutPage() {
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
           <div className="w-full md:w-1/3">
-            <div className="aspect-square relative rounded-full overflow-hidden bg-rosa-100">
+          <div className="aspect-square relative rounded-full overflow-hidden bg-rosa-100 flex items-center justify-center">
+            <div className="relative w-full h-full">
               <Image
                 src="/efeguai-about.png"
                 alt="efeguai character"
-                width={300}
-                height={300}
-                className="object-cover"
+                fill
+                sizes="(max-width: 768px) 100vw, 300px"
+                className="object-contain"
+                priority
               />
+            </div>
             </div>
           </div>
           <div className="w-full md:w-2/3">
