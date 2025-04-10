@@ -64,3 +64,14 @@ body {
 .gradient-premium {
   background: linear-gradient(to right, #d4c1fc, #c1e3fc);
 }
+
+
+@media (min-width: 768px) {
+  .kofi-iframe-container {
+    padding-top: 150% !important;
+  }
+
+  .kofi-iframe {
+    margin-top: -120px !important;
+  }
+}
