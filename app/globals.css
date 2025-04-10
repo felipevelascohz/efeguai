@@ -42,7 +42,7 @@ body {
 /* Custom font styling */
 @font-face {
   font-family: "Cute Font";
-  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+  src: url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
   font-weight: normal;
   font-style: normal;
 }
@@ -80,7 +80,7 @@ body {
   width: 100%;
   height: calc(100% + 180px); /* Compensar el margen negativo */
   border: 0;
-  margin-top: -150px; /* Valor para móviles */
+  margin-top: -180px; /* Valor para móviles */
 }
 
 
