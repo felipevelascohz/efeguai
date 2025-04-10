@@ -47,8 +47,8 @@ export default function CatalogoPage() {
             title="Ko-fi Shop"
             className="absolute top-0 left-0 w-full h-full border-0 kofi-iframe"
             style={{
-                marginTop: "-80px", // Menos desplazamiento para móviles
-                height: "calc(100% + 80px)", // Compensar el margen negativo
+                marginTop: "-180px", // Menos desplazamiento para móviles
+                height: "calc(100% + 180px)", // Compensar el margen negativo
               }}
             loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
