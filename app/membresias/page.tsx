@@ -5,7 +5,7 @@ import { Check } from "lucide-react"
 
 export default function SubscripcionesPage() {
   // Elementos del menú de navegación
-  const menuItems = ["ABOUT", "SUBSCRIPCIONES", "SHOP"]
+  const menuItems = ["ABOUT", "MEMBRESIAS", "SHOP"]
 
   // Datos de los planes de suscripción con enlaces Ko-fi
   const subscriptionPlans = [
