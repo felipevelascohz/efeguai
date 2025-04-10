@@ -66,12 +66,31 @@ body {
 }
 
 
+.kofi-iframe-container {
+  position: relative;
+  padding-top: 200%; /* Altura para móviles */
+  width: 100%;
+  overflow: hidden;
+}
+
+.kofi-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 180px); /* Compensar el margen negativo */
+  border: 0;
+  margin-top: -180px; /* Valor para móviles */
+}
+
+
 @media (min-width: 768px) {
   .kofi-iframe-container {
-    padding-top: 150% !important;
+    padding-top: 150%; /* Altura para escritorio */
   }
 
   .kofi-iframe {
-    margin-top: -120px !important;
+    margin-top: -300px; /* Valor para escritorio */
+    height: calc(100% + 300px); /* Compensar el margen negativo */
   }
 }

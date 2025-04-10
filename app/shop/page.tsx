@@ -41,15 +41,11 @@ export default function CatalogoPage() {
         <h1 className="text-3xl font-bold text-center mb-8 text-rosa-600">Shop</h1>
 
         <div className="w-full overflow-hidden rounded-lg shadow-lg">
-        <div className="relative kofi-iframe-container" style={{ paddingTop: "200%" }}>
+        <div className="kofi-iframe-container">
           <iframe
             src="https://ko-fi.com/efeguai/shop/"
             title="Ko-fi Shop"
-            className="absolute top-0 left-0 w-full h-full border-0 kofi-iframe"
-            style={{
-                marginTop: "-180px", // Menos desplazamiento para móviles
-                height: "calc(100% + 180px)", // Compensar el margen negativo
-              }}
+            className="kofi-iframe"
             loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
